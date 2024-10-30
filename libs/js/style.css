@@ -1,0 +1,83 @@
+.cf7msb-list {
+    background: #f1f1f1;
+    padding: 1rem 0;
+    list-style: disc;
+}
+
+.cf7msb-list li {
+    margin-left: 1.5rem;
+}
+
+.cf7msb-field-container {
+    margin-top: 10px;
+}
+
+/* Table: Block Spam - CF7 Panel */
+table.cf7msb-block-spam-table {
+
+}
+
+table.cf7msb-block-spam-table tr {
+    border: 1px solid #ccc;
+}
+
+.cf7msb-field-type {
+    padding: 4px 26px;
+    background: orangered;
+    color: #fff;
+    position: relative;
+    left: 1px;
+}
+.cf7msb-page #wpcontent{
+	 padding: 0;
+	 overflow-x: hidden!important;
+	 min-height: calc(100vh - 32px);
+	 background: #f0f0f1;
+	 color: #3c434a;
+ }
+.cf7msb-page #wpbody {
+	margin-top: 70px;
+}
+.cf7msb-layout__header {
+	background: #fff;
+	box-sizing: border-box;
+	padding: 0;
+	position: fixed;
+	width: calc(100% - 160px);
+	top: 32px;
+	z-index: 1001;
+}
+@media (min-width: 783px) and (max-width: 960px) {
+	.cf7msb-layout__header {
+		width: calc(100% - 36px);
+	}
+}
+@media (max-width: 782px) {
+	.cf7msb-layout__header {
+		flex-flow: row wrap;
+		top: 46px;
+		width: 100%;
+	}
+}
+.cf7msb-layout__header-wrapper{
+	display: flex;
+	padding: 0 30px;
+	align-items: center
+}
+.cf7msb-layout__header-wrapper h6{
+	height: 70px;
+	display: flex;
+	flex: 1 auto;
+	align-items: center;
+	margin: 0;
+	font-size: 1rem !important;
+}
+.cf7msb-layout__header.is-scrolled {
+	box-shadow: 0 8px 16px 0 rgb(85 93 102 / 30%);
+}
+.cf7msb-layout__body{
+}
+.wrap .cf7msb-layout__body {
+	margin: 0!important;
+	padding: 20px !important;
+}
